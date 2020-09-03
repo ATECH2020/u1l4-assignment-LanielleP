@@ -28,5 +28,5 @@ class StudentDesks {
 
         // closing the scanner object
         scanner.close();
-    }
-}
+    }//ends main method
+}//ends StudentDesks class

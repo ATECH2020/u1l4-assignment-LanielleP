@@ -28,5 +28,5 @@ class Timestamps {
 
         // closing the scanner object
         scanner.close();
-    }
-}
+    }//ends main method
+}//ends Timestamps class
