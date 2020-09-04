@@ -7,7 +7,10 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        System.out.println("Enter the angle of the hour hand: ");
+        
+        //System.out.println("Enter the angle of the hour hand: ");
+            //may have caused autograding issue
+        
         int hourAngle = scanner.nextInt();
 
         //my code :)
