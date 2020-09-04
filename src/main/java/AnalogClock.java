@@ -14,7 +14,7 @@ class AnalogClock {
         int hourAngle = scanner.nextInt();
 
         //my code :)
-        System.out.println( 12 * ( hourAngle % 30 ) );
+        System.out.print( 12 * ( hourAngle % 30 ) );
 
         // closing the scanner object
         scanner.close();

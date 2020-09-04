@@ -27,7 +27,7 @@ class StudentDesks {
         totalDesks += (students3 / 2);
         if( (students3 % 2)!= 0 )totalDesks++;
 
-        System.out.println(totalDesks);
+        System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();

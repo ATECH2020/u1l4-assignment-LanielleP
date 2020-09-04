@@ -29,7 +29,7 @@ class Timestamps {
         totalSec += (seconds2 - seconds1);
 
         //Displays result
-        System.out.println(totalSec+" seconds");
+        System.out.print(totalSec);
 
         // closing the scanner object
         scanner.close();
