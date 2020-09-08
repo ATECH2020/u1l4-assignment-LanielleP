@@ -7,12 +7,21 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
-        int number = scanner.nextInt();
+        
+        //System.out.print("Enter seconds past midnight: ");
+          //may have caused autograding error
+        
+        int sec = scanner.nextInt();
 
-        //Your code goes here
-
+        //Calculates minutes and hours
+        int min = (sec / 60);
+        int hour = (min / 60);
+        
+        //Prints result
+        System.out.print(hour+" "+min);
 
         // closing the scanner object
         scanner.close();
-    }
-}
+
+    }//ends main method
+}//ends SecondsPastMidnight class

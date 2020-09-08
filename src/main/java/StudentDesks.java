@@ -8,13 +8,28 @@ class StudentDesks {
 
         //Reads ints from user
         
+        //System.out.println("Enter the number of students for each classroom:");
+          //may have caused autograding error
+        
+        int students1 = scanner.nextInt();
+        int students2 = scanner.nextInt();
+        int students3 = scanner.nextInt();
 
-        /*
-         *  your code goes here
-         */
+        //my code :)
+        int totalDesks = 0;
+        
+        totalDesks += (students1 / 2);
+        if( (students1 % 2)!= 0 )totalDesks++;
 
+        totalDesks += (students2 / 2);
+        if( (students2 % 2)!= 0 )totalDesks++;
+
+        totalDesks += (students3 / 2);
+        if( (students3 % 2)!= 0 )totalDesks++;
+
+        System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();
-    }
-}
+    }//ends main method
+}//ends StudentDesks class
